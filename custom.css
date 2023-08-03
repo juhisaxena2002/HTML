@@ -1,0 +1,64 @@
+body{
+    font-family: 'Tapestry', cursive;
+
+}
+.hero_image{
+    background-image: url(dummbo.jpg);
+    height: 100vh;
+    
+    background-size: cover;
+    position: relative;
+}
+.hero_wrapper{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.hero_wrapper{
+    font-size: 5.2;
+    font: bold;
+    text-align: center;
+}
+.form_code .post_code{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .6rm;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+}
+.hero_wrapper span{
+    width: 1rem;
+}
+.form_code button{
+    width: 40%;
+    display: inline block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: aquamarine;
+    color: black;
+    padding: .6rm;
+    border: none ;
+    border-radius: .3rm;
+
+}
+
+/* product section */
+
+.product{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.product__list__item{
+    float: left;
+    width: 33.33%;
+
+}
